@@ -64,7 +64,7 @@ JPEG2000+0x1bf0:
 ```
 - As we can see, in this circle `esi` is always add a common number in stack, and then `mov     byte ptr [esi],al` command assigns value from `eax` low bits to the memory where `esi` points to. 
 - ![](jepg2000+1bf0.png)
-- ![](pseudo code.png)
+- ![](pseudoCode.png)
 - Using x32dbg for verification, `v9=ebx=0x20, v18=esi= 0x0F006FC2, v64=[ebp+1C]=0x2`, in each circle, `v18+=2, v9-=1`, so finally `esi =0x0F006FC2+0x2*0x20=0xF007002`, but the memory buffer malloced ends at 0x0F006FFF < 0xF007002, causing the access violation.
 - ![](x32dbg.png)
 
