@@ -2,6 +2,7 @@
 - IrfanView is a fast, compact and innovative FREEWARE (for non-commercial use) graphic viewer for Windows XP, Vista, 7, 8, 10 and 11.
 - Official site: [https://www.irfanview.com/](https://www.fosshub.com/IrfanView.html)
 
+# Infected Components
 - Irfanview 4.62 - 32 bit with Irfanview plugins 4.62 - 32 bit, which can be found in [https://www.fosshub.com/IrfanView.html](https://www.fosshub.com/IrfanView.html) or just download in this repository
 - JEPG2000.dll version 4.56.0.0 in `"C:\Program Files (x86)\IrfanView\Plugins"`
 
